@@ -5,6 +5,18 @@ app_description = "Hotel Management System"
 app_email = "mail@techsolvo.com"
 app_license = "mit"
 
+
+fixtures = [{
+  'dt' : 'Custom Field', 'filters':[
+    [
+      'name', 'in', [
+        'Sales Invoice-check_in_id',
+        'Sales Invoice-check_in_date',
+      ]
+    ]
+  ]
+}]
+
 # Apps
 # ------------------
 
